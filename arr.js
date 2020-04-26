@@ -1,0 +1,10 @@
+let sample = ['jazz', 'classical'];
+console.log(sample);
+sample.push('Rock n Roll');
+console.log(sample);
+sample[ Math.ceil(sample.length/2)] = 'blue';
+console.log(sample);
+sample.shift();
+console.log(sample);
+sample.unshift('raggie','pepe');
+console.log(sample);
